@@ -1,0 +1,16 @@
+{
+  "name": "classy-test-data",
+  "version": "0.1.0",
+  "description": "quickly create data for testing on Classy",
+  "main": "index.js",
+  "repository": "git@github.com:dpfavand/classy-test-data.git",
+  "author": "Daniel Favand <daniel@favand.net>",
+  "license": "GPL-3.0",
+  "private": false,
+  "dependencies": {
+    "classy-node": "^2.4.6",
+    "colors": "^1.1.2",
+    "dotenv": "^4.0.0",
+    "random-date-generator": "^1.0.2"
+  }
+}

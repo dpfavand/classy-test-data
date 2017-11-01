@@ -1,6 +1,6 @@
 {
   "name": "classy-test-data",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "quickly create data for testing on Classy",
   "main": "index.js",
   "repository": "git@github.com:dpfavand/classy-test-data.git",

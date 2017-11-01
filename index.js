@@ -62,6 +62,7 @@ app.then(aResult => {
                         token: 'app',
                         title: `Test Page for Team ${tResult.id} - Page ${pageI}`,
                         member_id: mResult.id,
+                        alias: `${mResult.first_name} ${mResult.last_name}`,
                         started_at: DateGenerator.getRandomDateInRange(startDate, endDate).toISOString().split('.')[0]+"Z", // remove miliseconds Classy API doesn't like
                         // started_at: "2016-02-01T00:37:23Z",
                         ended_at: data.ended_at
@@ -79,7 +80,7 @@ app.then(aResult => {
                             purchased_at: new Date(dDate).toISOString().split('.')[0]+"Z",
                             items: [
                                 {
-                                    product_price: getRandomIntInclusive(5, data.max_donation_amount),
+                                    price: getRandomIntInclusive(5, data.max_donation_amount),
                                     type: "offline_donation"
                                 }
                             ]
